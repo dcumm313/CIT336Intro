@@ -1,0 +1,40 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:powderblue;
+  background-image: url("cloudy-day.png");
+  color:dimgray;
+  font-size: 18pt;
+	text-align: center;
+}
+
+.profile{
+	border-radius: 50%;
+}
+
+p {
+	padding-left: 10px;
+}
+
+h1
+{
+  color:lightcoral;
+}
+
+h2
+{
+  color:lightpink;
+}
+
+h3
+{
+  color:fuchsia; 
+}
+
+b
+{
+  
+  color:yellow;
+  font-size: 20pt;
+  
+}
