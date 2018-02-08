@@ -2,18 +2,22 @@
   <head>
     <title>Dillon Cummings Introduction</title>
      <link rel="stylesheet" style="text/css" href="introStyle.css"> 
+     <!--- Link to jquery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script>
+     // This function has an alert popup when the user mouses over the list item
 $(document).ready(function(){
     $("#dune").mouseenter(function(){
         alert("Dune is really good. Go read it now.");
     });
 });
+      // This function has an alert popup when the user mouses over the h2
 $(document).ready(function(){
     $("#dune2").mouseenter(function(){
         alert("Seriously, read it right now.");
     });
 });
+      // This function hides and reveals the h1
 $(document).ready(function(){
     $("#hide").click(function(){
         $("h1").hide();
@@ -29,7 +33,7 @@ $(document).ready(function(){
     <center><h1>
       My Name is Dillon Cummings
     </h1></center>
-    
+    <!-- These buttons hide and show the h1 -->
     <button id="hide">Hide</button>
     <button id="show">Show</button>
     
@@ -43,15 +47,15 @@ $(document).ready(function(){
       Where I'm From
     </h2>
 
-    <!--- This is a picture of Princeton --->
+    <!--- This is a picture of Princeton -->
     <img src=princeton.png width=500 height=300>
 
-    <p id="myP">
+    <p id="myP"> <!-- This is the myP id -->
       This is Princeton, NJ. Though originally I was born in Colorado, I've lived in NJ as long as I can remember. I enjoy living in NY now though, because of all the great movie theaters. 
     </p>
-    
+    <!-- This button turns the above paragraph orange-->
     <button type="button" onclick="myFunction()">Press this button to see Princeton's town color</button>
-    
+    <!-- This links to the introFunction javascript -->
     <script src="introFunction.js"></script>
     
     <h2>
